@@ -23,7 +23,7 @@ export default function Layout({ children, currentDate, setCurrentDate }) {
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => setCurrentDate(new Date().getDate())}>
               <Heart className="w-8 h-8 text-rose-500 fill-rose-500 animate-pulse" />
-              <span className="font-bold text-xl tracking-tight text-rose-600">Valentine's Week</span>
+              <span className="font-bold text-xl tracking-tight text-rose-600">Bhuvaneswari 💘 Poovarasan</span>
             </div>
             
             <div className="hidden md:block">
