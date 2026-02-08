@@ -41,8 +41,7 @@ function App() {
     // If trying to access a future date, show Coming Soon
     // Note: This logic assumes we are in February.
     // Since today is 7th (in context), 8th > 7th is true.
-    // Lock future dates, but allow Feb 9 (Chocolate) and Feb 10 (Teddy) for preview
-    if (currentDate > today && currentDate !== 9 && currentDate !== 10) {
+    if (currentDate > today) {
       return <ComingSoon day={currentDate} title={dayTitles[currentDate]} />;
     }
 
