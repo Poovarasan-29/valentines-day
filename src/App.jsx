@@ -3,6 +3,8 @@ import { useState } from 'react';
 import Layout from './components/Layout';
 import RoseDay from './pages/RoseDay';
 import ProposeDay from './pages/ProposeDay';
+import ChocolateDay from './pages/ChocolateDay';
+import TeddyDay from './pages/TeddyDay';
 
 // Placeholder components for other days
 const ComingSoon = ({ day, title }) => (
@@ -49,9 +51,9 @@ function App() {
       case 8:
         return <ProposeDay />;
       case 9:
-        return <ComingSoon day="9" title="Chocolate Day" />;
+        return <ChocolateDay />;
       case 10:
-        return <ComingSoon day="10" title="Teddy Day" />;
+        return <TeddyDay />;
       case 11:
         return <ComingSoon day="11" title="Promise Day" />;
       case 12:
