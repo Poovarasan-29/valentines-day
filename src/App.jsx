@@ -5,6 +5,10 @@ import RoseDay from './pages/RoseDay';
 import ProposeDay from './pages/ProposeDay';
 import ChocolateDay from './pages/ChocolateDay';
 import TeddyDay from './pages/TeddyDay';
+import PromiseDay from './pages/PromiseDay';
+import HugDay from './pages/HugDay';
+import KissDay from './pages/KissDay';
+import ValentinesDay from './pages/ValentinesDay';
 
 // Placeholder components for other days
 const ComingSoon = ({ day, title }) => (
@@ -55,13 +59,13 @@ function App() {
       case 10:
         return <TeddyDay />;
       case 11:
-        return <ComingSoon day="11" title="Promise Day" />;
+        return <PromiseDay />;
       case 12:
-        return <ComingSoon day="12" title="Hug Day" />;
+        return <HugDay />;
       case 13:
-        return <ComingSoon day="13" title="Kiss Day" />;
+        return <KissDay />;
       case 14:
-        return <ComingSoon day="14" title="Valentines Day" />;
+        return <ValentinesDay />;
       default:
         return <RoseDay />;
     }
